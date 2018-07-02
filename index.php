@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
+
+		 <!-- Include external CSS. -->
+	    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+	 
+	    <!-- Include Editor style. -->
+	    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.4/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+	    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.4/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+
+
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -8,8 +19,15 @@
 		<script src="lib/jquery.js"></script>
 		<script src="lib/jquery-ui.js"></script>
 		<script src="lib/bootstrap.js"></script>
-		<script src="lib/vue.js"></script>
-		<script src="lib/interact.js"></script>
+		<!-- <script src="lib/vue.js"></script>
+		<script src="lib/interact.js"></script> -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+    	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+
+    	 <!-- Include Editor JS files. -->
+    	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.8.4/js/froala_editor.pkgd.min.js"></script>
+ 
+
 
 		<!-- Helpers -->
 		<script src="js/helperFunctions.js"></script>
@@ -27,7 +45,9 @@
 
 			<div id="topMenu">
 				<button type="button" onclick="devAddNewTextbox()">Add textbox</button>
+				<!-- <div id="fro"></div> -->
 			</div>
+			<!-- <script> $(function() { $('#fro').froalaEditor() }); </script> -->
 
 			<ul id="elementToolbar" class="nav nav-pills nav-stacked" style="width:50px">
 				<li class="toolbar_pill active"><a href="#tab_select" data-toggle="pill"><span class="glyphicon glyphicon glyphicon-hand-up" aria-hidden="true"></span></a></li>

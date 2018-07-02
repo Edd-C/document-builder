@@ -25,7 +25,7 @@
 			console.log("The name is changed.");
 		}
 
-		buildHtmlTextbox(){
+		buildHtmlElement(){
 			this._container = document.createElement("div");
 			this._container.setAttribute('class', "element textbox draggable");
 			this._container.setAttribute('id', "qwe");
