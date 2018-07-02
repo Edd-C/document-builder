@@ -1,0 +1,76 @@
+.elements {
+			-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+			-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+			position:absolute; 
+			width: 800px; 
+			left:50%; 
+			margin-left:-400px; 
+			background-color: white; 
+			height:800px;
+			top:100px;
+		}
+
+		
+
+		#topMenu {
+			position:absolute;
+			width:100%;
+			background-color:#ededed;
+			height:49px;
+			padding:8px 0 8px 0;
+			border-bottom: 1px solid #cbcbcb;
+		}
+
+		#mydiv {
+		    position: absolute;
+		    z-index: 9;
+		    background-color: #f1f1f1;
+		    text-align: center;
+		    border: 1px solid #d3d3d3;
+		}
+
+		#mydivheader {
+		    padding: 10px;
+		    cursor: move;
+		    z-index: 10;
+		    background-color: #2196F3;
+		    color: #fff;
+		}
+
+		#elementToolbar {
+			position:relative;
+			float:right;
+			top:48px;
+		} 
+
+		#elementToolbar li {
+			border-left: 1px solid #cbcbcb;
+			border-bottom: 1px solid #cbcbcb;
+			padding:0px;
+			margin:0px;
+			border-radius: 0px;
+		}
+
+		#elementToolbar li a{
+			border-radius: 0px;
+		}
+
+		#elementToolbarTabsContainer {
+			position:relative;
+			float:right;
+			top:48px;
+		}
+		.tab-pane {
+			background-color:#eaeaea;
+		}
+
+		.element{
+			outline-style:dotted; outline-width:0.8px; outline-color:#668c98;
+		}
+
+		.element.selected{
+			outline:2px solid #00b8d1;
+			background-color: none;
+		}
+
