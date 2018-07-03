@@ -25,6 +25,7 @@
 				charCounterCount: false ,
 				initOnClick: true,
 				theme: "custom",
+				key: 'iD2C1I2C2zA3B2D2A2F4E1D1A10C1A6mvG-10wwcB-21tC-13F-11iG3xzF-7cmcqog1H4dgd==',
 				pluginsEnabled: ["align", "charCounter", "codeBeautifier", "codeView", "colors", "draggable", "embedly", "emoticons", "entities", "file", "fontFamily", "fontSize", "fullscreen", "image", "imageManager", "inlineStyle", "lineBreaker", "link", "lists", "paragraphFormat", "paragraphStyle", "quote", "save", "table", "url", "wordPaste"]
 			});
 		}
